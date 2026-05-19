@@ -1,0 +1,36 @@
+{
+  "name": "conversor-audio-ata",
+  "version": "1.0.0",
+  "description": "Aplicacao CLI para geracao de atas de reuniao a partir de audio ou transcricao utilizando Google Gemini",
+  "type": "module",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "tsx src/cli.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "ata",
+    "reuniao",
+    "transcricao",
+    "gemini",
+    "minutas",
+    "cli"
+  ],
+  "license": "MIT",
+  "author": "L. A. Leandro",
+  "dependencies": {
+    "@google/genai": "^0.2.0",
+    "dotenv": "^16.4.7",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8",
+    "tsx": "^4.19.2",
+    "@types/node": "^22.10.5"
+  }
+}

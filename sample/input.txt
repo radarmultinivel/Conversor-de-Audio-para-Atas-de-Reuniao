@@ -1,0 +1,20 @@
+# Desenvolvido por L. A. Leandro São José dos Campos- SP - Data: 19/05/2026
+#
+# Transcricao simulada de reuniao para teste do sistema
+
+Reuniao de Planejamento Sprint 14
+Data: 15 de maio de 2026
+Participantes: Carlos (Tech Lead), Ana (PO), Beatriz (Dev), Joao (QA)
+
+Carlos: Vamos comecar a planning da sprint 14. Ana, quais sao as prioridades do produto?
+Ana: Temos tres itens criticos no backlog: o modulo de pagamento com PIX, a refatoracao da tela de login, e a correcao do bug de performance no relatorio mensal.
+Beatriz: Eu posso pegar a refatoracao da tela de login, ja estudei a arquitetura atual.
+Carlos: Ok Beatriz, fica com voce. Qual o prazo para entrega?
+Beatriz: Consigo entregar ate quarta-feira que vem.
+Carlos: Joao, voce pode cuidar do bug de performance? O relatorio esta levando mais de 30 segundos para carregar.
+Joao: Sim, posso investigar. Preciso de acesso ao banco de producao para entender os gargalos.
+Carlos: Vou solicitar o acesso para voce hoje. Prazo para correcao: ate o fim da sprint.
+Ana: Sobre o PIX, precisamos definir se usamos o provedor A ou B. Eu recomendo o provedor A, pois ja temos integracao com eles.
+Carlos: Fechado. Ficamos com o provedor A para o PIX.
+Ana: Entao fica decidido: provedor A para PIX, Beatriz faz a refatoracao do login, Joao cuida do bug de performance.
+Carlos: Isso. E eu vou revisar os PRs de todos. Reuniao encerrada.
